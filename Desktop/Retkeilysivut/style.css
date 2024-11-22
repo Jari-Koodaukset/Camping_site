@@ -152,6 +152,8 @@ footer {
     break-inside: avoid;
     break-after: avoid-column;
 }
+ 
+
 
 /*End making columns*/
 
@@ -159,3 +161,16 @@ main {
     background-color: aqua;
     
 }
+
+/*start making media screen*/
+@media only screen and (max-width: 1600px) {
+    .columns {
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      align-content: center;
+      flex-direction: column;
+
+    }
+  }
+  /*End making media screen*/

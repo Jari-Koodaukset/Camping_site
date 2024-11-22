@@ -138,7 +138,7 @@ footer {
 /*Start making columns*/
 
 .columns {
-    column-count: 3;
+    column-count: 4;
     break-inside: avoid;
     break-after: avoid-column;   
 }
@@ -146,7 +146,7 @@ footer {
 /*End making columns*/
 
 /*start making media screen*/
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1300px) {
     .columns {
       display: flex;
       justify-content:center;
@@ -154,5 +154,52 @@ footer {
       align-content: center;
       flex-direction: column;
     }
-  }
+   .offscreen {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+   }
+}
+
+@media only screen and (max-width: 1100px) {
+    .columns {
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      align-content: center;
+      flex-direction: column;
+    }
+   .offscreen {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+   }
+   .h1 {
+    font-size: 50px;
+   }
+}
+
+@media only screen and (max-width: 750px) {
+    .columns {
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      align-content: center;
+      flex-direction: column;
+    }
+   .offscreen {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+   }
+   .h1 {
+    font-size: 25px;
+   }
+}
   /*End making media screen*/

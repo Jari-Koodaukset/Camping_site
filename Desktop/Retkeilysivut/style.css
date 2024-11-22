@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*End start setup*/
 
 img {
@@ -30,8 +31,7 @@ img {
 body {
     font-family: "Nunito", sans-serif;
     min-height: 100vh;
-    background-color: aliceblue;
-    background-image: linear-gradient(to left, steelblue, white)
+    background-image: linear-gradient(to right, rgb(205, 180, 243) , aqua);
 }
 
 /*Start styling top container*/
@@ -51,8 +51,6 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: 30px;
-
-    background-color: rgba(241, 234, 234, 0.089);
 }
 
 .h1 {
@@ -91,8 +89,6 @@ h2 {
     text-shadow: 2px 2px gray;
     margin-bottom: 15px;
     padding: 5px;
-    
-
 }
 
 h3 {
@@ -103,7 +99,6 @@ h3 {
     padding: 5px;
     margin-bottom: 10px;
     margin-top: 5px;
-
 }
 /*End of styling H1 & H2 & H3*/
 
@@ -112,8 +107,7 @@ h3 {
 .videos {
     text-align: center;
     color: blueviolet;
-    break-inside: avoid;
-    
+    break-inside: avoid;   
 }
 
 video {
@@ -124,9 +118,7 @@ figcaption {
     text-align:center;
     color: rgb(173, 84, 19);
     font-size: 18px;
-    margin-bottom: 15px;
-    
-    
+    margin-bottom: 15px; 
 }
 
 
@@ -135,7 +127,7 @@ figcaption {
 /*Styling footer*/
 footer {
     text-align: center;
-    font-size: small;
+    font-size: small; 
 }
 
 .footer {
@@ -146,21 +138,12 @@ footer {
 /*Start making columns*/
 
 .columns {
-    column-count: 4;
-    margin-top: 0;
-    padding-top: 0;
+    column-count: 3;
     break-inside: avoid;
-    break-after: avoid-column;
+    break-after: avoid-column;   
 }
  
-
-
 /*End making columns*/
-
-main {
-    background-color: aqua;
-    
-}
 
 /*start making media screen*/
 @media only screen and (max-width: 1600px) {
@@ -170,7 +153,6 @@ main {
       align-items: center;
       align-content: center;
       flex-direction: column;
-
     }
   }
   /*End making media screen*/
